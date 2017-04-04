@@ -104,10 +104,6 @@ BOARD_USE_QOS_CTRL := false
 BOARD_USE_S3D_SUPPORT := true
 BOARD_USE_VP8ENC_SUPPORT := true
 
-# Lower filesize by limiting dex-preoptimization
-WITH_DEXPREOPT := true
-WITH_DEXPREOPT_BOOT_IMG_ONLY := true
-
 # Disable journaling on system.img to save space
 BOARD_SYSTEMIMAGE_JOURNAL_SIZE := 0
 
